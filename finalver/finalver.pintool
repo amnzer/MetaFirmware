@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32MG24B210F1536IM48" partId="mcu.arm.efr32.mg24.efr32mg24b210f1536im48" contextId="com.silabs.sdk.stack.super:4.4.6._-204795858">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="LFXO" propertyId="ABModule.selectedRequirement" value="lfxo%T%SL_DEVICE_INIT_LFXO%T%sl_device_init_lfxo_config.h"/>
+    <property object="LFXO" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PC00" propertyId="pin.name" value=""/>
+    <property object="PC01" propertyId="pin.name" value=""/>
+    <property object="PC02" propertyId="pin.name" value=""/>
+    <property object="PC03" propertyId="pin.name" value=""/>
+    <property object="PC06" propertyId="pin.name" value=""/>
+    <property object="PC07" propertyId="pin.name" value=""/>
+    <property object="PD00" propertyId="pin.name" value=""/>
+    <property object="PD01" propertyId="pin.name" value=""/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.cs" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.sclk" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.cs" value="32"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.rx" value="34"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.sclk" value="33"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.tx" value="35"/>
+    <property object="PORTIO" propertyId="portio.pti.location.dframe" value="39"/>
+    <property object="PORTIO" propertyId="portio.pti.location.dout" value="38"/>
+    <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
+    <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
